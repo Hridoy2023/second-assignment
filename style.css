@@ -9,9 +9,8 @@ body{
     font-family: 'Work Sans', sans-serif;
     color: #131313;
     font-weight: 400;
-   
-
 }
+/* nav manu and container */
 .main-container{
     background: rgba(255, 144, 14, 0.1);
    padding-bottom: 51px;
@@ -121,9 +120,6 @@ height: 1059px;
 }
 .all-feature{
     margin-right: 54px;
-   /* height: 100%;
-   width: 586px;
-height: 982px; */
 }
 .top-feature-heading{
     font-weight: 700;
@@ -143,8 +139,6 @@ margin-bottom: 30px;
 .feature{
     margin-bottom: 20px;
     padding: 30px; 
-    /* width: 586px;
-    height: 171px; */
     padding: 30px;
     margin: 30px;
 }
@@ -157,17 +151,10 @@ margin-bottom: 30px;
     font-weight: 600;
 font-size: 20px;
 }
-.four-feature{
-
-
-
-
-}
 .feature-head{
 margin-bottom: 10px;
 }
 .feature-image{
-    /* background-image: url(images/architect.png); */
     position: relative;
     opacity: 1;
 }
@@ -177,12 +164,10 @@ left: 840px;
 top: 3104px;
 border-radius: 8px;
 text-align: center;
-/* align-items: center; */
     width: 342px;
 height: 200px;
     background-color: #FF900E;
     padding: 55px 66px;
-    /* z-index: 1; */
 }
 .year{
     color: #FFFFFF;
@@ -211,12 +196,10 @@ margin-bottom: 24px;
 }
 /* logos */
 .logo{
-    width: 241.83px;
+width: 241.83px;
 height: 241.83px;
-    padding: 56px;
- /* margin-right: 161px; */
+ padding: 56px;
  border:1px solid #FF900E;
- /* background-color: coral; */
  box-sizing: border-box;
  text-align: center;
  justify-content: center;
@@ -227,11 +210,7 @@ height: 241.83px;
 
 }
 .all-logos{
-    /* background-color: blueviolet; */
     display: flex;
-    /* margin-left: 290px;
-    margin-right: 290px; */
-   /* box-sizing: border-box; */
    justify-content: space-between;
    margin: 0 290px;
   
@@ -254,11 +233,6 @@ font-size: 45px;
     color: #727272;
     font-weight: 600;
 font-size: 20px;
-}
-.logos> div{
-    /* width: 241.83px;
-    height: 241.83px; */
-
 }
 /* our sponsor */
 .our-sponsor{
