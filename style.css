@@ -262,7 +262,7 @@ margin-top: 180px;
     
 }
 /* footer */
-.footer{
+.main-footer{
     width: 1440px;
 height: 100px;
 margin-left: 240px;
@@ -284,8 +284,12 @@ padding-top: 40px;
      flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 10px;
     font-size: 30px;
+    margin-right: 0;
+    }
+    body{
+       margin-left: 20px;
     }
     .nav-header {
         margin-left: 12px;
@@ -310,7 +314,7 @@ padding-top: 40px;
     }
     .banner>img{
         height: 200px;
-        width: 400px;
+        width: 350px;
     }
     .banner{
         height: 100%;
@@ -323,10 +327,8 @@ padding-top: 40px;
         display: flex;
         flex-direction: column;
         grid-gap: 24px;
-     
-      /* margin-bottom: 50px;
-      margin-left: 50px; */
-      margin: 5px;
+        margin-left: 50px;
+      /* margin: 5px; */
     }
     .quick-container {
         display: flex;
@@ -363,8 +365,8 @@ padding-top: 40px;
     /* margin-bottom: 30px; */
 }
 .feature {
- 
-    margin: 0px;
+    margin-left: 50px;
+  
 }
 .feature-images, .feature-images img{ 
     width: 340px;
@@ -378,7 +380,7 @@ padding-top: 40px;
 .expariance {
     position: absolute;
     left: 100px;
-    top: 4500px;
+    top: 4900px;
   
     text-align: center;
   
@@ -396,7 +398,7 @@ padding-top: 40px;
 }
 .all-logos {
     flex-direction: column;
-    margin: 10px 70px;
+    margin: 10px 50px;
     gap: 50px;
 }
 .our-sponsor {
@@ -417,10 +419,11 @@ padding-top: 40px;
 .company{
     row-gap: 30px;
 }
-.footer{
-    margin:0 60px ;
+.main-footer{
+margin: 50px 50px;
     width: 240px;
-    height: 30px;
+    height: 150px;
+    text-align: center;
   
 }
 }
